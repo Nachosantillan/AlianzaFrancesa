@@ -1,0 +1,15 @@
+$ancho: 100%;
+
+.bg-footer{
+    background: linear-gradient(90deg, rgba(30,40,97,1) 0%, rgba(255,255,255,1) 50%, rgba(153,35,35,1) 100%); 
+   	border-top: $mx-px/2 groove ;
+    letter-spacing: $mx-px/4;
+}
+
+.footer__div__container__div--p{
+    @include estiloColumnasTituloFooter
+}
+
+a{
+    @include estiloColumnasTextoFooter
+}

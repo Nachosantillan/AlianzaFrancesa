@@ -1,0 +1,28 @@
+.bg-black{
+	background-color: #992323;
+}
+
+#siteHeader .miLogo{
+	background: url("../mediaa/logo3.png") no-repeat;
+	width: 170px; 
+	height: 48px;
+	display: block;
+	margin: auto;
+	background-size: cover;
+}
+
+.nav-link{
+	transition: 500ms;
+    &:hover{
+        transform: scale(1.1);
+}
+}
+
+.dropdown-item{
+    color: white;
+	background-color: #992323;
+}
+
+@mixin SARASA{
+	color: red;
+}
