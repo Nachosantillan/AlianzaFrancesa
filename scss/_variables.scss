@@ -1,0 +1,40 @@
+$titleFooter-color: black; 
+$enable-gradient: true;
+$mx-px: 4px;
+$valores: facebook, twitter, instagram;
+
+
+@mixin estiloColumnasTituloFooter{
+    color: $titleFooter-color;
+    margin: $mx-px;
+    padding: $mx-px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 20px;
+    transition: 500ms;
+    &:hover{
+        transform: scale(1.1);
+        color: black;
+        font-weight: bold;
+    }
+}
+
+@mixin estiloColumnasTextoFooter{
+    color: sienna;
+    font-weight: bold;
+    margin: $mx-px/2;
+    padding: $mx-px/2;
+    &:hover{
+        color: black;
+    }
+}
+
+@mixin badgeBeneficios{
+    transition: 1s;
+    &:hover{
+        transform: scale(1.2);
+        color: $main-color;
+    }
+}
+
+

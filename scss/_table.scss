@@ -1,0 +1,36 @@
+.table{
+	border: solid 2px #454d55;
+	color: grey;
+}
+
+.bg-table{
+	background-image: linear-gradient(90deg, rgba(30,40,97,1) 0%, rgba(255,255,255,1) 50%, rgba(153,35,35,1) 100%);
+
+}
+
+@media screen and (max-width: 767px) {
+    .table-personalizada {
+        width: 100%;
+        margin-bottom: 40px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd;
+    }
+    .table-personalizada > .table {
+        margin-bottom: 0;
+    }
+    .table-personalizada > .table > thead > tr > th,
+    .table-personalizada > .table > tbody > tr > th,
+    .table-personalizada > .table > tfoot > tr > th,
+    .table-personalizada > .table > thead > tr > td,
+    .table-personalizada > .table > tbody > tr > td,
+    .table-personalizada > .table > tfoot > tr > td {
+        white-space: nowrap;
+    }
+}
+
+@media all and (max-width: 580px) {
+	.table-personalizada {
+		display: block;
+	}
+}

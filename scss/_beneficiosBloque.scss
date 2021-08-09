@@ -1,0 +1,25 @@
+h3{
+	color: #1E2861;
+	font-weight: bold;
+	transition: 1s;
+	&:hover{
+		transform: scale(1.1);
+	}
+}
+
+.badge{
+	transition: 100ms;
+	
+	&:hover{
+		transform: scale(1.1);
+		
+	}
+} 
+
+$animal: gato;
+
+.animal{
+	@if $animal == gato{
+		color: green;
+	}
+}
