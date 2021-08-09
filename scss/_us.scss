@@ -5,7 +5,14 @@
 	    line-height: 4px;
 	    color: #1E2861;
 }
+
 .textAboutus{
+		line-height: 20px;
+		word-spacing: 2px;
+		font-size: 12px;
+		font-style: italic;
+}
+.textAboutus2{
 	line-height: 20px;
 	word-spacing: 2px;
 	font-size: 12px;
@@ -13,19 +20,33 @@
 }
 
 .bg-container{
-	min-height: 80vh;
-	font-weight: bold;
+		min-height: 80vh;
+		font-weight: bold;
 }
 .borderColumn{
-	color: grey;
-	margin: 4px;
-	transition: 3s;
-	border-left: solid 2px grey;
-	border-bottom:  2px grey groove;
-    &:hover{
-        transform: scale(1.1);
-        overflow: hidden;
+		color: grey;
+		margin: 2px;
+		transition: 3s;
+		border-left: solid 2px grey;
+		border-bottom:  2px grey groove;
+		&:hover{
+			transform: scale(1.1);
+			overflow: hidden;
     }
 }
+.borderColumn2{
+	color: grey;
+	margin: 2px;
+	transition: 3s;
+	border-left: solid 2px grey;
+	border-top:  2px grey groove;
+	&:hover{
+		transform: scale(1.1);
+		overflow: hidden;
+}
+}
+
+
+
 
 
