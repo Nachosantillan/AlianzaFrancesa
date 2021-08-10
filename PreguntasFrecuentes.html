@@ -74,7 +74,15 @@
 					<div class="card-body">
 					  <h5 class="card-title">¿Que curso es el más adecuado para mi?</h5>
 					  <p class="card-text">Sabremos evaluarte a través de exámenes, para conocer específicamente tu nivel de idioma y poder brindarte las herramientas necesarias.</p>
-					  <a href="#" class="btn btn-primary">TEST DE NIVELACIÓN</a>
+					  
+					  <div class="container">
+						<div class="row">
+							<button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#staticBackdrop">
+								TEST DE NIVELACION
+							</button> <!--no tiene que ser si o si un BUTTOM. se puede cambiar de etiqueta-->
+						</div>
+					</div>
+
 					</div>
 				</article>
 
@@ -83,7 +91,12 @@
 					<div class="card-body">
 					  <h5 class="card-title">¿Si falto, puedo recuperar la clase?</h5>
 					  <p class="card-text">Contamos con más de 10 profesores y 30 horas semanales, por lo que podrás elegir la clase (y las de recupero) que más se adecúen a tu rutina.</p>
-					  <a href="#" class="btn btn-primary">VER HORARIOS</a>
+					  <div class="container">
+						<div class="row">
+							<button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#staticBackdrop">
+								VER HORARIOS
+							</button> 
+						</div>
 					</div>
 				</article>
 
@@ -92,7 +105,12 @@
 					<div class="card-body ">
 					  <h5 class="card-title">¿Que material de estudio necesito?</h5>
 					  <p class="card-text">Siendo socio anual, contarás con todo el material de estudio 100% digital y sin costo alguno; directo de las mejores universidades de Francia</p>
-					  <a href="#" class="btn btn-primary">MATERIAL DE APRENDIZAJE</a>
+					  <div class="container">
+						<div class="row">
+							<button type="button" class="btn btn-primary mx-auto" data-toggle="modal" data-target="#staticBackdrop">
+								MATERIAL DE APRENDIZAJE
+							</button> 
+						</div>
 					</div>
 				</article>
 				  
@@ -101,6 +119,26 @@
 
 
 		
+		<div class="modal fade" id="staticBackdrop" data-backdrop="static" data-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+			<div class="modal-dialog">
+			  <div class="modal-content">
+				<div class="modal-header">
+				  <h5 class="modal-title" id="staticBackdropLabel">¡Advertencia!</h5>
+				  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				  </button>
+				</div>
+				<div class="modal-body">
+				  <p>Esta página se encuentra en reparación. Le pedimos disculpas. Intente nuevamente en unos días :)</p>
+				</div>
+				<div class="modal-footer">
+				  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+				  <!--<button type="button" class="btn btn-primary">Understood</button>-->
+				</div>
+			  </div>
+			</div>
+		  </div>
+
 
 		  	<script src="jscreadosmanualmente/jquery-3.5.1.slim.min.js"></script>
 		  	<script src="Bootstrap/js//bootstrap.bundle.min.js"></script>
