@@ -189,6 +189,10 @@ h3 {
   font-weight: bold;
 }
 
+h5 {
+  color: white;
+}
+
 .btn {
   background-color: #806B67;
   border-color: black;
@@ -201,6 +205,8 @@ h3 {
 }
 
 .titleAboutus {
+  margin: 10px;
+  padding: 20px;
   font-weight: bold;
   font-style: italic;
   font-size: 35px;
@@ -209,6 +215,8 @@ h3 {
 }
 
 .textAboutus {
+  margin: 20px;
+  padding: 20px;
   line-height: 20px;
   word-spacing: 2px;
   font-size: 12px;
