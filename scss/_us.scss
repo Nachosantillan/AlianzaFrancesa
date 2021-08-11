@@ -90,6 +90,29 @@
 }
   }
 
+.container .formContacto{
+	border: solid #1E2861 2px;
+	padding: 20px;
+	margin: 20px;
+	color: #992323;
+	font-weight: bold;
+	font-style: italic;
+	text-align: center;
+}
+
+.btn-contacto {
+	color: white;
+    font-weight: bold;
+	font-style: italic;
+	background-color: #992323;
+	border-color: white;
+  }
+  .btn-contacto:hover {
+	background-color: white;
+	color: #992323;
+    font-weight: bold;
+    border-color: #992323;
+}
 
 
 
