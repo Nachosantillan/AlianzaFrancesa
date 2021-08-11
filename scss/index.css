@@ -45,18 +45,9 @@
 
 #siteBanner {
   background-position: 100%;
-  height: 50vh;
+  height: 35vh;
   position: relative;
-}
-
-#siteBanner span {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
   background-image: linear-gradient(90deg, #1e2861 0%, white 50%, #992323 100%);
-  background-position: 50%;
 }
 
 #siteTorre h3, #siteColumns h3 {
@@ -71,6 +62,7 @@
   line-height: 1.25em;
   font-weight: 700;
   color: #1E2861;
+  transition: 1s;
 }
 
 .table {
