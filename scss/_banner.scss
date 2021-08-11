@@ -19,3 +19,14 @@
 	color: #1E2861;
 	transition: 1s;
 }
+
+.textoSiteBanner{
+	font-style: italic;
+	font-weight: bold;
+	transition: 1s;
+	
+}
+
+.textoSiteBanner:hover{
+	transform: scale(110%);
+}
