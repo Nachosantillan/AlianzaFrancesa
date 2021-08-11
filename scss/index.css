@@ -322,6 +322,13 @@ h5 {
   background-color: #1E2861;
 }
 
+.labelc {
+  -webkit-animation: zoomIn;
+          animation: zoomIn;
+  -webkit-animation-duration: 1s;
+          animation-duration: 1s;
+}
+
 .btn-contacto {
   color: #992323;
   font-weight: bold;
