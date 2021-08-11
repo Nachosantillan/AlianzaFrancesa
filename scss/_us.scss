@@ -44,6 +44,53 @@
 }
 
 
+@media (max-width: 760px) {
+	.titleAboutus{
+		margin: 0px;
+		padding: 0px;
+	    font-weight: bold;
+	    font-style: italic;
+	    font-size: 35px;
+	    line-height: 60px;
+	    color: #1E2861;
+		animation: bounceInRight;
+		animation-duration: 1s;
+		
+}
+
+.textAboutus{
+		margin: 0px;
+		padding: 10px;
+		line-height: 20px;
+		word-spacing: 2px;
+		font-size: 12px;
+		font-style: italic;
+		animation: bounceInLeft;
+		animation-duration: 1s;
+}
+
+.bg-container{
+		min-height: 80vh;
+		font-weight: bold;
+}
+.borderColumn{
+		color: grey;
+		margin-bottom: 20px;
+		margin-top: 20px;
+		padding: 40px;
+		transition: 3s;
+		border-left: groove 2px;
+		border-bottom:  2px groove;
+		overflow: hidden;
+			
+    }
+.cardUs{
+	animation: zoomIn;
+	animation-duration: 3s;
+}
+  }
+
+
 
 
 

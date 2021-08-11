@@ -16,3 +16,13 @@
     font-weight: bold;
     border-color: #992323;
 }
+
+.badge{
+	transition: 2s;
+	
+	&:hover{
+		transform: scale(105%);
+		background-color: grey;
+		color: white;
+	}
+} 

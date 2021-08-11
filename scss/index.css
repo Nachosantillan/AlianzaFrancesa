@@ -132,14 +132,12 @@
 }
 
 .badge {
-  transition: 100ms;
+  transition: 2s;
 }
 .badge:hover {
-  transform: scale(1.1);
-}
-
-.animal {
-  color: green;
+  transform: scale(105%);
+  background-color: grey;
+  color: white;
 }
 
 .footer {
@@ -256,4 +254,56 @@ h5 {
           animation: zoomIn;
   -webkit-animation-duration: 3s;
           animation-duration: 3s;
+}
+
+@media (max-width: 760px) {
+  .titleAboutus {
+    margin: 0px;
+    padding: 0px;
+    font-weight: bold;
+    font-style: italic;
+    font-size: 35px;
+    line-height: 60px;
+    color: #1E2861;
+    -webkit-animation: bounceInRight;
+            animation: bounceInRight;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+
+  .textAboutus {
+    margin: 0px;
+    padding: 10px;
+    line-height: 20px;
+    word-spacing: 2px;
+    font-size: 12px;
+    font-style: italic;
+    -webkit-animation: bounceInLeft;
+            animation: bounceInLeft;
+    -webkit-animation-duration: 1s;
+            animation-duration: 1s;
+  }
+
+  .bg-container {
+    min-height: 80vh;
+    font-weight: bold;
+  }
+
+  .borderColumn {
+    color: grey;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 40px;
+    transition: 3s;
+    border-left: groove 2px;
+    border-bottom: 2px groove;
+    overflow: hidden;
+  }
+
+  .cardUs {
+    -webkit-animation: zoomIn;
+            animation: zoomIn;
+    -webkit-animation-duration: 3s;
+            animation-duration: 3s;
+  }
 }/*# sourceMappingURL=index.css.map */
