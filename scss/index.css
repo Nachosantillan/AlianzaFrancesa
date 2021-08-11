@@ -315,26 +315,26 @@ h5 {
   }
 }
 .container .formContacto {
-  border: solid #1E2861 2px;
+  border-top: double grey;
   padding: 20px;
-  margin: 20px;
-  color: #992323;
-  font-weight: bold;
-  font-style: italic;
-  text-align: center;
-}
-
-.btn-contacto {
   color: white;
   font-weight: bold;
   font-style: italic;
-  background-color: #992323;
-  border-color: white;
+  text-align: center;
+  background-color: #1E2861;
+}
+
+.btn-contacto {
+  color: #992323;
+  font-weight: bold;
+  background-color: white;
+  transition: 2s;
+  border-color: black;
 }
 
 .btn-contacto:hover {
   background-color: white;
-  color: #992323;
+  color: black;
   font-weight: bold;
   border-color: #992323;
 }/*# sourceMappingURL=index.css.map */
