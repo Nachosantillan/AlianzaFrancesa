@@ -149,37 +149,36 @@ h3:hover {
   color: green;
 }
 
-.bg-footer {
-  background: linear-gradient(90deg, #1e2861 0%, white 50%, #992323 100%);
-  border-top: 2px groove;
-  letter-spacing: 1px;
-}
-
-.footer__div__container__div--p {
-  color: black;
-  margin: 4px;
-  padding: 4px;
-  font-weight: bold;
-  font-style: italic;
-  font-size: 20px;
-  transition: 500ms;
-}
-.footer__div__container__div--p:hover {
-  transform: scale(1.1);
-  color: black;
+.footer {
+  border-top: double;
+  color: grey;
+  background-image: linear-gradient(90deg, #1e2861 0%, white 50%, #992323 100%);
   font-weight: bold;
 }
 
 a {
-  color: sienna;
-  font-weight: bold;
-  margin: 2px;
-  padding: 2px;
-}
-a:hover {
-  color: black;
+  transition: 1s;
 }
 
+.footer a:hover {
+  transform: scale(1.1);
+}
+
+@media (min-width: 200px) {
+  .footer a {
+    font-size: 6px;
+  }
+}
+@media (min-width: 767px) {
+  .footer a {
+    font-size: 14px;
+  }
+}
+@media (min-width: 1400) {
+  .footer a {
+    font-size: 20px;
+  }
+}
 #siteColumns2 {
   background-color: #1E2861;
 }
@@ -205,12 +204,12 @@ h5 {
 }
 
 .titleAboutus {
-  margin: 10px;
+  margin: 20px;
   padding: 20px;
   font-weight: bold;
   font-style: italic;
   font-size: 35px;
-  line-height: 4px;
+  line-height: 60px;
   color: #1E2861;
 }
 
@@ -239,22 +238,10 @@ h5 {
   color: grey;
   margin: 2px;
   transition: 3s;
-  border-left: solid 2px grey;
-  border-bottom: 2px grey groove;
+  border-left: double 2px grey;
+  border-bottom: 2px grey double;
+  overflow: hidden;
 }
 .borderColumn:hover {
-  transform: scale(1.1);
-  overflow: hidden;
-}
-
-.borderColumn2 {
-  color: grey;
-  margin: 2px;
-  transition: 3s;
-  border-left: solid 2px grey;
-  border-top: 2px grey groove;
-}
-.borderColumn2:hover {
-  transform: scale(1.1);
-  overflow: hidden;
+  transform: scale(1.02, 1.02);
 }/*# sourceMappingURL=index.css.map */

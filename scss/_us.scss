@@ -1,11 +1,12 @@
 .titleAboutus{
-		margin: 10px;
+		margin: 20px;
 		padding: 20px;
 	    font-weight: bold;
 	    font-style: italic;
 	    font-size: 35px;
-	    line-height: 4px;
+	    line-height: 60px;
 	    color: #1E2861;
+		
 }
 
 .textAboutus{
@@ -31,24 +32,15 @@
 		color: grey;
 		margin: 2px;
 		transition: 3s;
-		border-left: solid 2px grey;
-		border-bottom:  2px grey groove;
+		border-left: double 2px grey;
+		border-bottom:  2px grey double;
+		overflow: hidden;
 		&:hover{
-			transform: scale(1.1);
-			overflow: hidden;
+			transform: scale(1.02,1.02);
+			
     }
 }
-.borderColumn2{
-	color: grey;
-	margin: 2px;
-	transition: 3s;
-	border-left: solid 2px grey;
-	border-top:  2px grey groove;
-	&:hover{
-		transform: scale(1.1);
-		overflow: hidden;
-}
-}
+
 
 
 
