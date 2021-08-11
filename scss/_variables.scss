@@ -19,15 +19,7 @@ $valores: facebook, twitter, instagram;
     }
 }
 
-@mixin estiloColumnasTextoFooter{
-    color: sienna;
-    font-weight: bold;
-    margin: $mx-px/2;
-    padding: $mx-px/2;
-    &:hover{
-        color: black;
-    }
-}
+
 
 @mixin badgeBeneficios{
     transition: 1s;

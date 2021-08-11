@@ -5,7 +5,16 @@
 h3{
     color: black;
     font-weight: bold;
+    animation: slideInDown;
+	animation-duration: 1s; 
 }
+
+.secondtitlePF{
+    color: white;
+    animation: slideInUp;
+	animation-duration: 1s; 
+}
+
 
 h5{
     color: white;

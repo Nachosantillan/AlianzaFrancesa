@@ -6,6 +6,8 @@
 	    font-size: 35px;
 	    line-height: 60px;
 	    color: #1E2861;
+		animation: bounceInRight;
+		animation-duration: 1s;
 		
 }
 
@@ -16,6 +18,8 @@
 		word-spacing: 2px;
 		font-size: 12px;
 		font-style: italic;
+		animation: bounceInLeft;
+		animation-duration: 1s;
 }
 
 .bg-container{
@@ -34,6 +38,10 @@
 		overflow: hidden;
 			
     }
+.cardUs{
+	animation: zoomIn;
+	animation-duration: 3s;
+}
 
 
 
