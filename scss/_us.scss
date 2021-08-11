@@ -1,6 +1,6 @@
 .titleAboutus{
 		margin: 20px;
-		padding: 20px;
+		padding: 0px;
 	    font-weight: bold;
 	    font-style: italic;
 	    font-size: 35px;
@@ -10,18 +10,12 @@
 }
 
 .textAboutus{
-		margin: 20px;
-		padding: 20px;
+		margin: 10px;
+		padding: 10px;
 		line-height: 20px;
 		word-spacing: 2px;
 		font-size: 12px;
 		font-style: italic;
-}
-.textAboutus2{
-	line-height: 20px;
-	word-spacing: 2px;
-	font-size: 12px;
-	font-style: italic;
 }
 
 .bg-container{
@@ -29,17 +23,18 @@
 		font-weight: bold;
 }
 .borderColumn{
+		
 		color: grey;
-		margin: 2px;
+		margin-bottom: 100px;
+		margin-top: 40px;
+		padding: 90px;
 		transition: 3s;
-		border-left: double 2px grey;
-		border-bottom:  2px grey double;
+		border-left: groove 2px;
+		border-bottom:  2px groove;
 		overflow: hidden;
-		&:hover{
-			transform: scale(1.02,1.02);
 			
     }
-}
+
 
 
 
